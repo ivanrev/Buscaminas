@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/lay_linear01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_10x10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10 x 10" />
+
+        <Button
+            android:id="@+id/bt_20x20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="20 x 20" />
+
+        <Button
+            android:id="@+id/bt_30x30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="30 x 30" />
+
+        <EditText
+            android:id="@+id/tv_NumeroMinas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Introduzca el níumero de minas (Def.10)"
+            android:inputType="number" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
